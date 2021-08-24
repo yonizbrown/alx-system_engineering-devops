@@ -1,0 +1,1 @@
+<h1>Hi adain, new work on shell, init files, variables and expansions</h1>
