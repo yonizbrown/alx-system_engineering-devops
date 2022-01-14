@@ -1,2 +1,2 @@
-<h1>#!/bin/bash
-pwd -P
+<h1>New Project</h1>
+

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#Bash script that kills a process
-pgrep -f 7-highlander | xargs kill -9
+# A Bash script that kills the process 7-highlander.
+
+pkill -f -SIGKILL 7-highlander
