@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-#Creating a script that uses an until loop
-x=0
-until [ $x -gt 9 ]
+#This script display "Best School" 10times usig until loop.
+
+i=0
+until (( i == 10 ));
 do
-	echo "Best School"
-	((x++))
+	echo "Best School";
+	(( i++ ));
 done
