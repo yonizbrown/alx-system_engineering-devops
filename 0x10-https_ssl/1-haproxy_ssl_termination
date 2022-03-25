@@ -50,5 +50,5 @@ frontend www-https
 backend web-backend
         balance roundrobin
         redirect scheme https if !{ ssl_fc }
-        server 938-web-01 35.231.33.237:80 check
-        server 938-web-02 34.74.155.163:80 check
+        server 938-web-01 34.139.163.196 check
+        server 938-web-02 34.239.163.81 check
