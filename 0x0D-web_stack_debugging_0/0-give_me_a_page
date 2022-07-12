@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Script that turns on an Apache Server
-service apache2 start
+#fix curl message by starting apache
+
+sudo service apache2 start
